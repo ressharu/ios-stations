@@ -11,7 +11,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        UIColor.Theme.main
+        view.backgroundColor = UIColor.Theme.main
     }
 
 }
