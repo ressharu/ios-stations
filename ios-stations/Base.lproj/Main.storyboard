@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqa-v4-8qw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqa-v4-8qw">
                                 <rect key="frame" x="107" y="426" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
@@ -35,6 +35,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aqa-v4-8qw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LQp-rF-af8"/>
+                            <constraint firstItem="aqa-v4-8qw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OpF-p6-vBa"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
